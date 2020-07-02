@@ -1,9 +1,7 @@
-1. Python_X_Precurse
-    - Classes
-2. Exercises_1-8_v6
-3. https://www.practicepython.org/
-4. Dictionary_Exercise-9
-5. Flota
+1. Ficheros
+2. Estadística
+3. A_Quick_Guide_On_Descriptive_Statistics_Using_Pandas
+4. exercises/Exercises_1-8_v7
 
 ---------
 
