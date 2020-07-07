@@ -15,3 +15,10 @@ def Random_n_g ():
     print(number)
 
 
+# Download data from url
+def pabajo (url):
+    import requests 
+    url= input("introduce una url")
+   # n = input ("introduce un id para el paquete")
+    paquete = requests.get(url).content
+print(paquete)      
