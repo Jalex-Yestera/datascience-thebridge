@@ -13,4 +13,5 @@ def Random_n_g ():
     # but remember int removes the left side ceros.
     number = (a_string)
     print(number)
-    
+
+
