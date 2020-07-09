@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\yeste\\AppData\\Local\\Programs\\Python\\Python38\\python.exe"
+    "python.pythonPath": "C:\\Users\\yeste\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
+    "python.dataScience.textOutputLimit": 0
 }

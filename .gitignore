@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.gitignore
+kata_pokemon_enunciados.sql
+kata_pokemon_soluciones.sql
+TallerSQL.pdf
+\SQL\sql-pokemon-workshop\README.md
+Workspace.code-workspace
