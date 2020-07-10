@@ -3,9 +3,9 @@
 
 # FUNCION RANDOM NUMBER GENERATOR:
 def Random_n_g ():
-    """ Next line is not needed if you wrote it before. Consider deletion."""
+""" Next line is not needed if you wrote it before. Consider deletion."""
     import numpy as np
-    # Return list with random integers from low (inclusive) to high (exclusive).
+# Return list with random integers from low (inclusive) to high (exclusive).
     number = np.random.randint(0, high=10, size=4, dtype=int)
     # Group the four elements in the list to a str
     strings = [str(num) for num in number]
@@ -16,7 +16,7 @@ def Random_n_g ():
     print(number)
 
 
-# Download data from url
+# Download data from url and print it
 def pabajo (url):
     import requests 
     url= input("introduce una url")
