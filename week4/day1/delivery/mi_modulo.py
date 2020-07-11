@@ -14,12 +14,12 @@ def Random_n_g ():
 
 
 # FUNCION CREA ARCHIVO, VUELCA LISTA CON JSON EN STRING
-def list_to_str ():
+def list_to_str (list):
     # creo el nuevo archivo y le vuelco la lista
-    with open('new_data.json', 'w+') as outfile:
-        json.dump(sin_data_post, outfile)
+    with open('data.json', 'w+') as outfile:
+        json.dump(data_list, outfile)
     # convierte la lista en un str
-    with open('new_data.json') as f:
+    with open('data.json') as f:
         line = f.readline()
         if line:
             print(line)
@@ -30,12 +30,12 @@ def list_to_str ():
 
 
 # Download data from url and print it
-def pabajo (url):
-    import requests 
+def url_reader ():
     url= input("introduce una url")
-        # n = input ("introduce un id para el paquete")
-    paquete = requests.get(url).content     
-    print(paquete)
+    n = input ("introduce un id para el archivo")
+    import requests 
+    x = requests.get(url).content     
+    print(x)
 
 
 
