@@ -13,6 +13,20 @@ def Random_n_g ():
     print(number)
 
 
+# FUNCION CREA ARCHIVO, VUELCA LISTA CON JSON EN STRING
+def list_to_str ():
+    # creo el nuevo archivo y le vuelco la lista
+    with open('new_data.json', 'w+') as outfile:
+        json.dump(sin_data_post, outfile)
+    # convierte la lista en un str
+    with open('new_data.json') as f:
+        line = f.readline()
+        if line:
+            print(line)
+            line = f.readline()
+    print(line)
+
+
 
 
 # Download data from url and print it
