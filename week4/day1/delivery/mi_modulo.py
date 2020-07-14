@@ -59,4 +59,14 @@ def tsv_df (x):
     dfr
 
 
-    
+
+
+
+# Funcion entrega W5
+def _f_protected (x):
+    Filtra_l1 = lambda x: True if x > 5
+    l1 = []
+    for j in range(16):
+        l1.append(j)
+    f = filter (Filtra_l1, l1 )
+    return f
