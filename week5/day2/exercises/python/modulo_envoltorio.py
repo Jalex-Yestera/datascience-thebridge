@@ -23,19 +23,3 @@ def _f_protected ():
     fv= list(filter(lambda x : x > 5,l1)) 
     return fv
 _f_protected()
-
-
-'''def _f_protected(x):
-    l1 = [ x for x in range(16)]
-    filtrada = list(filter(lambda x : x > 5, l1))
-    print (fv)
-
-# Decorador prepost
-def prepost(*args , **kwargs ):
-    url = kwargs['url']
-    readed = pd.read_csv(url, sep=",")
-    df = pd.DataFrame(readed)
-    print (df)
-    df.hist()'''
-
-
